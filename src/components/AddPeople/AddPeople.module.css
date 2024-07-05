@@ -1,0 +1,104 @@
+.modal {
+  position: fixed;
+  z-index: 10;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modalContent {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 21px 14px;
+  border: 1px solid #888;
+  width: 35%;
+  height: 32%;
+  border-radius: 0.6819rem;
+}
+
+.modalBox {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modalBox > p {
+  font-family: var(--notoSans-fontFamily);
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.buttons > button {
+  width: 100%;
+  height: 3rem;
+  cursor: pointer;
+  border-radius: 0.75rem;
+  box-shadow: 0px 2px 12px 0px #82698c33;
+  font-family: var(--poppins-fontFamily);
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.logoutBtn {
+  background: var(--main-color);
+  border: none;
+  color: #ffffff;
+}
+
+.logoutBtn:hover {
+  box-shadow: 0px 2px 12px 0px #82698c;
+}
+
+.cancelBtn {
+  background: transparent;
+  border: 1px solid #cf3636;
+  color: #cf3636;
+}
+
+.cancelBtn:hover {
+  box-shadow: 0px 2px 12px 0px #82698c;
+}
+
+.titleHeader > input {
+  /* width: 100%; */
+  width: 460px;
+  outline: none;
+  border: 1px solid #e2e2e2;
+  box-shadow: 0px 1px 2px 0px #4d40551a;
+  font-family: var(--inter-fontFamily);
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin-bottom: 2rem;
+}
+.buttonsuccessful {
+  width: 100%;
+gap: 0.6rem;
+display: contents;
+
+}
+.buttonsuccessful > button {
+  width: 100%;
+  height: 3rem;
+  cursor: pointer;
+  border-radius: 0.75rem;
+  box-shadow: 0px 2px 12px 0px #82698c33;
+  font-family: var(--poppins-fontFamily);
+  font-weight: 600;
+  font-size: 1rem;
+  margin-top: 2rem;
+}
