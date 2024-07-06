@@ -1,6 +1,6 @@
 import axios from "axios";
-// const apiUrl = 'https://backend-zvy9.onrender.com';
-const apiUrl = 'http://localhost:8000';
+const apiUrl = 'https://backend-zvy9.onrender.com';
+// const apiUrl = 'http://localhost:8000';
   const backendUrl = `${apiUrl}/tasks`;
 
 export const getAnalyticsData = async () => {
